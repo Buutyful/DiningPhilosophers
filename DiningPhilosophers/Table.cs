@@ -88,8 +88,6 @@ public sealed class Table
         int id = p.Id;
         while (!ct.IsCancellationRequested)
         {
-            ReportThink(id, TimestampMs());
-
             Fork firstFork = p.Left.Id < p.Right.Id ? p.Left : p.Right;
             Fork secondFork = firstFork == p.Left ? p.Right : p.Left;
 
@@ -135,7 +133,9 @@ public sealed class Table
             ReportSleep(id, TimestampMs());
             await Task.Delay(_timeToSleepMs, ct);
 
-            await Task.Yield();
+            //think
+            ReportThink(id, TimestampMs());
+
         }
     }
 
