@@ -1,3 +1,5 @@
 <Solution>
   <Project Path="DiningPhilosophers/DiningPhilosophers.csproj" />
+  <Project Path="DiningPhilosophersCoroutine/DiningPhilosophersCoroutine.csproj" Id="9e98b2cc-fa52-423d-9584-b83bc8f1a0fc" />
+  <Project Path="Shared/Shared.csproj" Id="1316d4f3-62d9-456e-8799-5d12dcf376d6" />
 </Solution>

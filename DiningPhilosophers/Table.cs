@@ -1,4 +1,6 @@
-﻿namespace DiningPhilosophers;
+﻿using Shared;
+
+namespace DiningPhilosophers;
 
 //DONT WORRY ABOUT THE TABLE "GOD CLASS",
 //THE WHOLE POINT OF THIS EXCERCISE IS TO HAVE SHARED RESOURCES THAT DIFFERENT THREADS HAVE ACCESS TO,

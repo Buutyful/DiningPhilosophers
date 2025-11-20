@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace DiningPhilosophers;
+namespace Shared;
 
 public static class TimeUtils
 {
