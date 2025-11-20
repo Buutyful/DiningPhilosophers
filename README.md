@@ -2,7 +2,9 @@
 
 ## Description
 
-This project implements a simulation of the classic **Dining Philosophers Problem**, a fundamental synchronization challenge in concurrent programming.
+This project implements a simulation of the classic **Dining Philosophers Problem**.
+The first project displays how different threads are handleds to manage shared resources.
+The second projects use proper coroutine levareging c# async\await tasks.
 
 ### Problem Overview
 
