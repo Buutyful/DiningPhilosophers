@@ -4,8 +4,8 @@
 
 This project implements a simulation of the classic **Dining Philosophers Problem**.
 
-- The first project displays how different threads are handleds to manage shared resources.
-- The second projects use proper coroutine levareging c# async\await tasks.
+- The first project demonstrates how different threads are handled to manage shared resources.
+- The second project uses proper coroutines, leveraging C# async/await and tasks.
 
 ### Problem Overview
 
